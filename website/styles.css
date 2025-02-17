@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Noto Sans', 'Barlow', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #E5DCCF;
+    color: black;
+}
+header img {
+    max-width: 100px;
+}
+header h1, header p {
+    color: #D2332F;
+}
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #BA826E;
+}
+button {
+    background-color: #D2332F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #A00;
+}
